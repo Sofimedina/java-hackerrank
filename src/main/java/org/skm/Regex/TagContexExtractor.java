@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class TagContexExtractor {
 
-    public static void run(){
+    public static void main(String[] args){
         //        String line = "<h1>Nayeem loves counseling</h1>";
         String line = "<h1><h1>Sanjay has no watch</h1></h1><par>So wait for a while</par>";
 //        String line = "<Amee>safat codes like a ninja</amee>";

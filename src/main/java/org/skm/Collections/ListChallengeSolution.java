@@ -9,7 +9,7 @@ import java.util.regex.*;
 
 public class ListChallengeSolution {
 
-    public static void run() {
+    public static void main (String[] args) {
         Scanner st = new Scanner(System.in);
         LinkedList<Integer> LL = new LinkedList<Integer>();
         int n = st.nextInt();
