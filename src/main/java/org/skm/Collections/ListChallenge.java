@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListChallenge {
-    public void run(int numbersOfElements,String numbersEntered,List<Querie> queries){
+    public static void run(int numbersOfElements,String numbersEntered,List<Querie> queries){
         List<String> numbers=new ArrayList<>(numbersOfElements);
         for (String number:numbersEntered.split("\\s+")) {
             numbers.add(number);

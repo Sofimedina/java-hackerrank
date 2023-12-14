@@ -1,6 +1,7 @@
 package org.skm;
 
 import org.skm.Collections.ListChallenge;
+import org.skm.Collections.ListChallengeSolution;
 import org.skm.Collections.Querie;
 
 import java.io.IOException;
@@ -13,7 +14,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        ListChallenge listChallenge=new ListChallenge();
         //WITH FILE
         try {
             List<String> lines= Files.readAllLines(Paths.get("src/main/java/org/skm/Collections/test3.txt"));
@@ -22,11 +22,15 @@ public class Main {
                 queries.add(new Querie(lines.get(i),lines.get(i+1)));
             }
 
-            listChallenge.run(Integer.parseInt(lines.get(0)),lines.get(1),queries);
+            ListChallenge.run(Integer.parseInt(lines.get(0)),lines.get(1),queries);
 
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        //Simplier solution for list challenge
+        ListChallengeSolution.run();
+
 
         //WITH SCANNEER
         /*Scanner scanner=new Scanner(System.in);
