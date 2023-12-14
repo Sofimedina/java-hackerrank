@@ -1,5 +1,11 @@
 package org.skm;
 
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 import org.skm.Collections.ListChallenge;
 import org.skm.Collections.ListChallengeSolution;
 import org.skm.Collections.Querie;
@@ -7,12 +13,17 @@ import org.skm.Collections.Querie;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+
 
 public class Main {
+
+
+
     public static void main(String[] args) {
+
+
+        TagContexExtractor.run();
+
 
         //WITH FILE
         try {
