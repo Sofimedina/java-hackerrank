@@ -1,4 +1,4 @@
-package org.skm;
+package org.skm.Regex;
 
 /*regex challenge*/
 
