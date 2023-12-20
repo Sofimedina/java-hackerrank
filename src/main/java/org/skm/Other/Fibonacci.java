@@ -14,8 +14,6 @@ public class Fibonacci {
         }
 
         System.out.println(listOfFibos);
-
-        return;
     }
     public static void main(String[] args) {
 
