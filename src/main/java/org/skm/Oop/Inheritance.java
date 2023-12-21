@@ -1,4 +1,4 @@
-package org.skm.Inheritance;
+package org.skm.Oop;
 
 
 class Arithmetic {
